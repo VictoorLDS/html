@@ -1,0 +1,28 @@
+2023-09-20 14:08:44.732 [info] 
+
+
+
+
+2023-09-20 14:08:44.732 [info] Extension host agent started.
+2023-09-20 14:08:44.766 [info] Started initializing default profile extensions in extensions installation folder. file:///var/www/html/.vscode-server/extensions
+2023-09-20 14:08:44.807 [info] [127.0.0.1][598e8522][ManagementConnection] New connection established.
+2023-09-20 14:08:44.808 [info] [127.0.0.1][dedaf30e][ExtensionHostConnection] New connection established.
+2023-09-20 14:08:45.012 [info] [127.0.0.1][dedaf30e][ExtensionHostConnection] <857> Launched Extension Host Process.
+2023-09-20 14:08:45.690 [info] Completed initializing default profile extensions in extensions installation folder. file:///var/www/html/.vscode-server/extensions
+2023-09-20 14:08:46.764 [error] Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: mobile.events.data.microsoft.com. is not in the cert's altnames: DNS:*.araquari.ifc.edu.br, DNS:araquari.ifc.edu.br
+    at new NodeError (node:internal/errors:387:5)
+    at Object.checkServerIdentity (node:tls:354:12)
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1545:27)
+    at TLSSocket.emit (node:events:513:28)
+    at TLSSocket._finishInit (node:_tls_wrap:949:8)
+    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:730:12)
+2023-09-20 14:08:51.141 [info] [127.0.0.1][598e8522][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-20 14:08:51.169 [info] [127.0.0.1][dedaf30e][ExtensionHostConnection] <857> Extension Host Process exited with code: 0, signal: null.
+2023-09-20 14:08:51.176 [info] Cancelling previous shutdown timeout
+2023-09-20 14:08:51.176 [info] Last EH closed, waiting before shutting down
+2023-09-20 14:08:59.457 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-09-20 14:08:59.457 [info] Cancelling previous shutdown timeout
+2023-09-20 14:08:59.548 [info] [127.0.0.1][03606542][ManagementConnection] New connection established.
+2023-09-20 14:08:59.550 [info] [127.0.0.1][ef58498f][ExtensionHostConnection] New connection established.
+2023-09-20 14:08:59.554 [info] [127.0.0.1][ef58498f][ExtensionHostConnection] <958> Launched Extension Host Process.
+2023-09-20 14:13:59.459 [info] New EH opened, aborting shutdown
