@@ -27,8 +27,8 @@
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-    </header> 
-<div class="container">
+    </header>
+   <div class="container">
     <div class="movie-card">
         <img src="movie1.jpg" alt="Filme 1">
         <h2>Filme 1</h2>
@@ -64,15 +64,6 @@
         <p class="price">$12.99</p>
         <button class="buy-button">Comprar</button>
     </div>
-    <div class="movie-card">
-        <img src="movie2.jpg" alt="Filme 2">
-        <h2>Filme 2</h2>
-        <p>Descrição do Filme 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p class="price">$12.99</p>
-        <button class="buy-button">Comprar</button>
-    </div>
-    
-</div>    
     <footer>
         &copy; 2023 Loja de Filmes
     </footer>
@@ -95,22 +86,25 @@
             }
         
             .container {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                grid-gap: 20px;
-                justify-items: center;
-                margin: 20px; /* Adicionei uma margem ao container para espaçamento externo */
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
             }
-            
         
             .movie-card {
                 background-color: #ffffff;
+                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                display: flex;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                grid-gap: 20px;
+                justify-content: space-between;    flex: 0 0 calc(33.33% - 20px);
                 border-radius: 8px;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
                 padding: 20px;
                 text-align: center;
-                /* width: 300px; Remova essa linha para que os cards se ajustem automaticamente */
+                margin-right: 20px;
+                max-width: 300px;
             }
+            
             .movie-card img {
                 max-width: 100%;
                 border-radius: 4px;

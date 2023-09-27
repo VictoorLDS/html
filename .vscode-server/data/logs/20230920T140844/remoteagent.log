@@ -26,3 +26,6 @@
 2023-09-20 14:08:59.550 [info] [127.0.0.1][ef58498f][ExtensionHostConnection] New connection established.
 2023-09-20 14:08:59.554 [info] [127.0.0.1][ef58498f][ExtensionHostConnection] <958> Launched Extension Host Process.
 2023-09-20 14:13:59.459 [info] New EH opened, aborting shutdown
+2023-09-20 15:08:55.867 [info] [127.0.0.1][03606542][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-20 15:08:55.938 [info] [127.0.0.1][ef58498f][ExtensionHostConnection] <958> Extension Host Process exited with code: 0, signal: null.
+2023-09-20 15:08:55.939 [info] Last EH closed, waiting before shutting down

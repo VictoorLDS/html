@@ -71,7 +71,20 @@
         <p class="price">$12.99</p>
         <button class="buy-button">Comprar</button>
     </div>
-    
+    <div class="movie-card">
+        <img src="movie2.jpg" alt="Filme 2">
+        <h2>Filme 2</h2>
+        <p>Descrição do Filme 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="price">$12.99</p>
+        <button class="buy-button">Comprar</button>
+    </div>
+    <div class="movie-card">
+        <img src="movie2.jpg" alt="Filme 2">
+        <h2>Filme 2</h2>
+        <p>Descrição do Filme 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="price">$12.99</p>
+        <button class="buy-button">Comprar</button>
+    </div>
 </div>    
     <footer>
         &copy; 2023 Loja de Filmes
@@ -95,13 +108,11 @@
             }
         
             .container {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                grid-gap: 20px;
-                justify-items: center;
-                margin: 20px; /* Adicionei uma margem ao container para espaçamento externo */
+                
+                margin: 0 auto;
+                padding: 20px;
+                display: flex;
             }
-            
         
             .movie-card {
                 background-color: #ffffff;
@@ -109,8 +120,14 @@
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
                 padding: 20px;
                 text-align: center;
-                /* width: 300px; Remova essa linha para que os cards se ajustem automaticamente */
+                width: 300px;
+                margin: 20px;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                grid-gap: 20px;
+                justify-items: center;
             }
+            
             .movie-card img {
                 max-width: 100%;
                 border-radius: 4px;

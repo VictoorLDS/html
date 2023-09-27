@@ -1,0 +1,1 @@
+2023-09-27 13:46:07.145 [error] node #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET Hostname/IP does not match certificate's altnames: Host: az764295.vo.msecnd.net. is not in the cert's altnames: DNS:*.araquari.ifc.edu.br, DNS:araquari.ifc.edu.br

@@ -27,8 +27,8 @@
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-    </header> 
-<div class="container">
+    </header>
+   <div class="container">
     <div class="movie-card">
         <img src="movie1.jpg" alt="Filme 1">
         <h2>Filme 1</h2>
@@ -64,15 +64,6 @@
         <p class="price">$12.99</p>
         <button class="buy-button">Comprar</button>
     </div>
-    <div class="movie-card">
-        <img src="movie2.jpg" alt="Filme 2">
-        <h2>Filme 2</h2>
-        <p>Descrição do Filme 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p class="price">$12.99</p>
-        <button class="buy-button">Comprar</button>
-    </div>
-    
-</div>    
     <footer>
         &copy; 2023 Loja de Filmes
     </footer>
@@ -88,20 +79,17 @@
             }
         
             header {
-                background-color: #ffffff;
+                background-color: #333;
                 color: #fff;
                 text-align: center;
                 padding: 20px;
             }
         
             .container {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                grid-gap: 20px;
-                justify-items: center;
-                margin: 20px; /* Adicionei uma margem ao container para espaçamento externo */
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
             }
-            
         
             .movie-card {
                 background-color: #ffffff;
@@ -109,8 +97,10 @@
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
                 padding: 20px;
                 text-align: center;
-                /* width: 300px; Remova essa linha para que os cards se ajustem automaticamente */
+                width: 300px;
+                margin: 20px;
             }
+            
             .movie-card img {
                 max-width: 100%;
                 border-radius: 4px;
@@ -123,7 +113,7 @@
             
             .movie-card p {
                 font-size: 16px;
-                color: #313131;
+                color: #555;
                 margin: 10px 0;
             }
             
@@ -149,13 +139,27 @@
                 background-color: #d3401a;
             }
             
-            
+            footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 10px;
+            }
+        
             @media (max-width: 768px) {
                 .filme {
                     flex-direction: column;
                     align-items: center;
                     text-align: center;
                 }
+            }
+            button{
+                color: white;
+                background-color: #000000;
+                border-radius: 10px;
+                border-color: #fff;
+                height: 50px;
+                width: 100px;
             }
             nav {
                 max-width: 1200px;
@@ -167,7 +171,7 @@
             
             .logo a {
                 text-decoration: none;
-                color: #e44d26;
+                color: #fff;
                 font-size: 24px;
                 font-weight: bold;
             }
@@ -183,7 +187,7 @@
             
             .nav-links a {
                 text-decoration: none;
-                color: #e44d26;
+                color: #fff;
                 font-size: 16px;
                 font-weight: bold;
             }
@@ -195,7 +199,7 @@
             .dropdown-content {
                 display: none;
                 position: absolute;
-                background-color: #ffffff;
+                background-color: #333;
                 min-width: 150px;
                 z-index: 1;
             }
@@ -207,13 +211,7 @@
             .dropdown:hover .dropdown-content {
                 display: block;
             }
-
-            footer {
-                background-color: #f7f7f7;
-                max-width: 1200px;
-                color: #e44d26;
-                text-align: center;
-                padding: 10px;
-            }
+            
+            Este código cria uma Navbar simples com um dropdown de categorias. Você pode adicionar mais estilos e funcionalidades conforme necessário para o seu site de venda de filmes. Certifique-se de personalizar as cores, fontes e conteúdo de acordo com a identidade visual do seu site.
+            
         </style>
-        
