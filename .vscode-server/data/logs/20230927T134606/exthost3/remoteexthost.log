@@ -25,3 +25,10 @@
 	at TLSSocket.emit (node:events:513:28)
 	at TLSSocket._finishInit (node:_tls_wrap:949:8)
 	at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:730:12)
+2023-09-27 15:10:32.011 [error] Error: Hostname/IP does not match certificate's altnames: Host: mobile.events.data.microsoft.com. is not in the cert's altnames: DNS:*.araquari.ifc.edu.br, DNS:araquari.ifc.edu.br
+	at new NodeError (node:internal/errors:387:5)
+	at Object.checkServerIdentity (node:tls:354:12)
+	at TLSSocket.onConnectSecure (node:_tls_wrap:1545:27)
+	at TLSSocket.emit (node:events:513:28)
+	at TLSSocket._finishInit (node:_tls_wrap:949:8)
+	at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:730:12)
