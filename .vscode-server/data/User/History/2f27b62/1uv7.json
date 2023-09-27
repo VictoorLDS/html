@@ -1,0 +1,10 @@
+{
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false
+}
