@@ -1,0 +1,16 @@
+2023-10-23 13:22:49.285 [info] Extension host with pid 849 started
+2023-10-23 13:22:49.452 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-23 13:22:49.475 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-23 13:22:49.475 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-23 13:22:49.989 [info] Eager extensions activated
+2023-10-23 13:22:49.989 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-23 13:22:49.989 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-23 13:22:52.038 [error] Error: Hostname/IP does not match certificate's altnames: Host: mobile.events.data.microsoft.com. is not in the cert's altnames: DNS:*.araquari.ifc.edu.br, DNS:araquari.ifc.edu.br
+	at new NodeError (node:internal/errors:387:5)
+	at Object.checkServerIdentity (node:tls:354:12)
+	at TLSSocket.onConnectSecure (node:_tls_wrap:1545:27)
+	at TLSSocket.emit (node:events:513:28)
+	at TLSSocket._finishInit (node:_tls_wrap:949:8)
+	at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:730:12)
+2023-10-23 13:22:54.893 [info] Extension host terminating: received terminate message from renderer
+2023-10-23 13:22:54.911 [info] Extension host with pid 849 exiting with code 0

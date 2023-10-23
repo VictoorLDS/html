@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    }
+    header {
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+    .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 20px; /* Adicionei uma margem ao container para espaçamento externo */
+    }
+    .movie-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    /* width: 300px; Remova essa linha para que os cards se ajustem automaticamente */
+    }
+    .movie-card img {
+    max-width: 100%;
+    border-radius: 4px;
+    }
+    .movie-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    }
+    .movie-card p {
+    font-size: 16px;
+    color: #313131;
+    margin: 10px 0;
+    }
+    .movie-card .price {
+    font-size: 20px;
+    color: #e44d26;
+    margin: 10px 0;
+    font-weight: bold;
+    }
+    .movie-card .buy-button {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    .movie-card .buy-button:hover {
+    background-color: #d3401a;
+    }
+    @media (max-width: 768px) {
+    .filme {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    }
+    nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo a {
+    text-decoration: none;
+    color: #e44d26;
+    font-size: 24px;
+    font-weight: bold;
+    }
+    .nav-links {
+    list-style: none;
+    display: flex;
+    }
+    .nav-links li {
+    margin-right: 20px;
+    }
+    .nav-links a {
+    text-decoration: none;
+    color: #e44d26;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    .dropdown {
+    position: relative;
+    }
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 150px;
+    z-index: 1;
+    }
+    .dropdown-content li {
+    padding: 10px;
+    }
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    
+    footer {
+    background-color: #f7f7f7;
+    max-width: 1200px;
+    color: #e44d26;
+    text-align: center;
+    padding: 10px;
+    }

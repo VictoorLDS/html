@@ -1,0 +1,8 @@
+[Error - 13:59:27] Error while computing completions for file:///var/www/html/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at Object.e.create (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1275366)
+    at V (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798723)
+    at j.computeCompletions (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:798000)
+    at Y.doComplete2 (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:799513)
+    at doComplete (/var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1372158)
+    at /var/www/html/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1358235
