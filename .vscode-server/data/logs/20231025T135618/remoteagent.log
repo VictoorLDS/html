@@ -1,0 +1,17 @@
+2023-10-25 13:56:18.759 [info] 
+
+
+
+
+2023-10-25 13:56:18.806 [info] Extension host agent started.
+2023-10-25 13:56:19.001 [info] [127.0.0.1][e42675a0][ManagementConnection] New connection established.
+2023-10-25 13:56:19.006 [info] [127.0.0.1][e3c3810e][ExtensionHostConnection] New connection established.
+2023-10-25 13:56:19.277 [info] [127.0.0.1][e3c3810e][ExtensionHostConnection] <843> Launched Extension Host Process.
+2023-10-25 13:56:21.053 [error] Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: mobile.events.data.microsoft.com. is not in the cert's altnames: DNS:*.araquari.ifc.edu.br, DNS:araquari.ifc.edu.br
+    at new NodeError (node:internal/errors:387:5)
+    at Object.checkServerIdentity (node:tls:354:12)
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1545:27)
+    at TLSSocket.emit (node:events:513:28)
+    at TLSSocket._finishInit (node:_tls_wrap:949:8)
+    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:730:12)
+2023-10-25 14:01:19.769 [info] New EH opened, aborting shutdown

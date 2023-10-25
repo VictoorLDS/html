@@ -5,34 +5,20 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:39287 (IPv4)
-Extension host agent listening on 39287
+Server bound to 127.0.0.1:41395 (IPv4)
+Extension host agent listening on 41395
 
-[13:22:47] 
-
-
+[13:56:18] 
 
 
-[13:22:47] Extension host agent started.
-[13:22:48] [127.0.0.1][59b26d54][ManagementConnection] New connection established.
-[13:22:48] [127.0.0.1][21524274][ExtensionHostConnection] New connection established.
-[13:22:48] [127.0.0.1][21524274][ExtensionHostConnection] <849> Launched Extension Host Process.
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[13:22:50] Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: mobile.events.data.microsoft.com. is not in the cert's altnames: DNS:*.araquari.ifc.edu.br, DNS:araquari.ifc.edu.br
+
+
+[13:56:18] Extension host agent started.
+[13:56:19] [127.0.0.1][e42675a0][ManagementConnection] New connection established.
+[13:56:19] [127.0.0.1][e3c3810e][ExtensionHostConnection] New connection established.
+[IPC Library: Pty Host]  INFO Revived process, old id 9 -> new id 1
+[13:56:19] [127.0.0.1][e3c3810e][ExtensionHostConnection] <843> Launched Extension Host Process.
+[13:56:21] Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: mobile.events.data.microsoft.com. is not in the cert's altnames: DNS:*.araquari.ifc.edu.br, DNS:araquari.ifc.edu.br
     at new NodeError (node:internal/errors:387:5)
     at Object.checkServerIdentity (node:tls:354:12)
     at TLSSocket.onConnectSecure (node:_tls_wrap:1545:27)
@@ -97,64 +83,6 @@ Extension host agent listening on 39287
   'wget --version > /dev/null\n' +
     'if [ $? -eq 0 ]\n' +
     'then\n' +
-    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
-    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
-    'else\n' +
-    '\tcurl --version > /dev/null\n' +
-    '\tif [ $? -eq 0 ]\n' +
-    '\tthen\n' +
-    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
-    '\tfi\n' +
-    'fi\n' +
-    'exit 0'
-]
-[13:22:54] [127.0.0.1][59b26d54][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[13:22:54] [127.0.0.1][21524274][ExtensionHostConnection] <849> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[13:22:54] Cancelling previous shutdown timeout
-Last EH closed, waiting before shutting down
-[13:22:54] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[13:22:58] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[13:22:58] Cancelling previous shutdown timeout
-[13:22:58] [127.0.0.1][545346bc][ManagementConnection] New connection established.
-[13:22:58] [127.0.0.1][b249c38e][ExtensionHostConnection] New connection established.
-[13:22:58] [127.0.0.1][b249c38e][ExtensionHostConnection] <950> Launched Extension Host Process.
-[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
-  '-c',
-  'wget --version > /dev/null\n' +
-    'if [ $? -eq 0 ]\n' +
-    'then\n' +
     "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
     'else\n' +
     '\tcurl --version > /dev/null\n' +
@@ -211,4 +139,4 @@ Cancelling previous shutdown timeout
     'exit 0'
 ]
 New EH opened, aborting shutdown
-[13:28:00] New EH opened, aborting shutdown
+[14:01:19] New EH opened, aborting shutdown

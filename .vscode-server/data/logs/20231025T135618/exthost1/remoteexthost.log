@@ -1,0 +1,18 @@
+2023-10-25 13:56:20.466 [info] Extension host with pid 843 started
+2023-10-25 13:56:20.617 [info] Lock '/var/www/html/.vscode-server/data/User/workspaceStorage/1c689aab9f72cdbb8676c74725bccd74/vscode.lock': Lock acquired.
+2023-10-25 13:56:20.734 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-25 13:56:20.735 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-10-25 13:56:21.740 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-25 13:56:21.775 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-25 13:56:21.776 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-25 13:56:22.485 [info] Eager extensions activated
+2023-10-25 13:56:22.493 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-25 13:56:22.493 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-25 13:56:24.998 [error] Error: Hostname/IP does not match certificate's altnames: Host: mobile.events.data.microsoft.com. is not in the cert's altnames: DNS:*.araquari.ifc.edu.br, DNS:araquari.ifc.edu.br
+	at new NodeError (node:internal/errors:387:5)
+	at Object.checkServerIdentity (node:tls:354:12)
+	at TLSSocket.onConnectSecure (node:_tls_wrap:1545:27)
+	at TLSSocket.emit (node:events:513:28)
+	at TLSSocket._finishInit (node:_tls_wrap:949:8)
+	at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:730:12)
+2023-10-25 14:20:05.399 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
